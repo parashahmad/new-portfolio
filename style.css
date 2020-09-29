@@ -1,0 +1,221 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+[class*="col-"]{
+    float: left;
+    padding: 10px;
+}
+[class*="col-"]{
+    width: 100%;
+}
+
+
+
+/* header style start from here */
+
+header{
+    background-color: #0C2326;
+    padding: 1% 7%;
+    text-align: center;
+}
+.logo-area{
+    text-align: center;
+    padding-top: 15px;
+    cursor: pointer;
+}
+.menu-area{
+    
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.menu-area a{
+   background-color: #0c6168;
+   margin: 10px auto;
+   padding: 10px;
+   border-radius: 10px;
+   
+}
+.menu-area a:hover{
+    background-color: gray;
+}
+
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+/* header style ends here */
+
+/* slide area starts here */
+    .slide-area{
+        background: url(images/slide1.jpg);
+        height: 500px;
+        background-size: cover;
+        position: relative;
+        
+    }
+    .content-area{
+        background: rgba(5,3,0,0.63);
+        position: absolute;
+        width: 65%;
+        margin: 6% 15%;
+        padding: 60px;
+       
+        
+        
+    }
+    .content-area h2{
+        color: white;
+        font-size: 35px;
+        line-height: normal;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .content-area h4{
+        color: #4fcaff;
+        font-size: 20px;
+        line-height: normal;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+    .content-area p{
+        color: #fff;
+        margin: 15px 0;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+    .content-area .btn{
+        border: none;
+        background-color: #4fcaff;
+        width: 200px;
+        height: 60px;
+        color: white;
+        text-align: center;
+        font-size: 16px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 0.7s;
+    }
+    .content-area .btn:hover{
+        background-color: #fff;
+        color: black;
+    }
+    .slide-area::after{
+        content: '';
+        display: table;
+        clear: both;
+    }
+/* slide area ends here */
+
+/* builds area starts here */
+    .build-area{
+        margin: 60px 7%;
+    }
+    .build-content h4{
+        color: #4fcaff;
+        letter-spacing: 1px;
+        line-height: 1.2;
+        font-size: 18px;
+        margin-bottom: 10px;
+        font-weight: 500;
+        font-family: inherit;
+    }
+    .build-content h2{
+        margin-bottom: 15px;
+        font-size: 30px;
+        font-family: inherit;
+    }
+    .build-content p{
+        line-height: 1.5;
+        color: #212529;
+        text-align: justify;
+    }
+    
+    .build-image{
+        width: 400px;
+        height: 300px;
+
+    }
+
+    .build-image img{
+        width: 100%;
+        height: 100%;
+        
+    }
+    .build-area::after{
+        content: '';
+        display: table;
+        clear: both;
+    }
+
+/* builds area ends here */
+
+/* works area start from here */
+    .works-area{
+        background-color: #1A2428;
+        margin: 30px 7%;
+       
+       
+    }
+    .work-content h2{
+        color: white;
+        padding-top: 40px;
+        font-size: 35px;
+    }
+    .work-content p{
+        color: white;
+        font-weight: 300;
+        line-height: 1.2;
+        margin-bottom: 10px;
+        text-align: justify;
+    }
+    
+    .work-images h3{
+       width: 300px;
+        color: black;
+        text-transform: uppercase;
+        text-align: center;
+        background-color: white;
+        padding: 15px;
+        font-weight: bold;
+        font-size: 25px;
+        
+        
+    }
+    .fuck-image{
+        width: 300px;
+        text-align: center;
+        
+        
+    }
+    .work-images{
+        padding: 20px auto;
+        margin: 20px auto;
+    }
+
+
+    .works-area::after{
+        content: '';
+        display: table;
+        clear: both;
+    }
+
+/* works area ends here */
+

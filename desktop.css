@@ -1,0 +1,113 @@
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+*{
+    box-sizing: border-box;
+}
+.logo-area{
+    text-align: left;
+}
+.menu-area{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.menu-area a{
+    padding: 5px 5px;
+    margin: 10px 10px;
+    text-align: center;
+}
+
+/* slide area starts here */
+
+.slide-area{
+    height: 800px;
+    
+}
+.content-area{
+    width: 50%;
+    height: 400px;
+    margin: 10% 25%;
+    
+}
+.content-area h2{
+    color: white;
+    font-size: 75px;
+    line-height: normal;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.content-area h4{
+    color: #4fcaff;
+    font-size: 30px;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.content-area p{
+    color: #fff;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 20px;
+}
+.content-area .btn{
+    border: none;
+    background-color: #4fcaff;
+    width: 200px;
+    height: 60px;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.7s;
+    margin-top: 25px;
+}
+
+/* slide area ends here */
+
+/* builds area starts here */
+.build-area{
+    margin: 100px 7%;
+}
+.build-image{
+    width: 650px;
+    height: 500px;
+    margin-left: 100px;
+}
+.build-image{
+    justify-content: right;
+}
+.build-content{
+    width: 500px;
+    margin-right: 10px;
+
+}
+.build-content h2{
+    font-size: 40px;
+    line-height: 1.2;
+}
+.build-content p{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+}
+/* builds area ends here */
+/* works area start from here */
+    .works-area{
+        padding: 4% 7%;
+    }
+/* works area ends here */
